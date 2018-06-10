@@ -22,4 +22,8 @@ class Artist
         #needs to add artist to song
     end
 
+    def song_count
+        @song.size
+    end
+
 end
